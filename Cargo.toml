@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "binary_search",
+    "branches",
+    "fibonacci",
+    "functions",
+    "guessing_game",
+    "hello_cargo",
+    "loops",
+    "panic",
+    "restaurant",
+
+#   `rmain` is commented out because it depends on `cfib` which is a C
+#   library, and this workspace isn't smart enough yet to build that
+#   library and place it where `rmain` can consume it.
+#
+#    "rmain",
+
+    "threading",
+]

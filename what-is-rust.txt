@@ -1,0 +1,9 @@
+What is Rust? (from my perspective as a long-time C++ dev)
+
+* It's like a combination of C++ and TypeScript
+- strict typing
+- similar syntax to C++
+- compiled and linked, not interpreted
+- tools that have a JavaScript/TypeScript "flavoring"?
+
+* Designed to be both fast and safe (as opposed to C++ which might be fast but can be dangerous as well).

@@ -1,0 +1,6 @@
+Rust           C++
+let x          const auto x
+let mut x      auto x
+const x        constexpr x
+&x             const auto& x
+&mut x         auto& x

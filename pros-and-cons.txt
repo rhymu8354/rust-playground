@@ -1,0 +1,11 @@
+Pros:
+
+* Fast
+* Safe
+* Rigorous and strict (for me, in my opinion)
+
+Cons:
+
+* Rigorous and strict (implies complexity)
+* Error messages can be long and weird (but they are in C++ so no biggie!)
+* Compilation time (hey, we're totally used to that in C++ too)

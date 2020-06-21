@@ -1,0 +1,17 @@
+Things Rhymu does NOT particularly like about Rust (not saying I hate them):
+
+1. preoccupation with integer sizes in the standard types
+     i32, u64
+
+2. opinionated naming convension for functions and variables
+    Almost certainly going to use this:
+        #![allow(non_snake_case)]
+
+3. using methods from traits requires pulling in (with "use") the traits,
+   and it's not immediately obvious to a casual reader why the trait is
+   being pulled in.
+
+4. excessive terseness of terms (examples: mut, Rc, str, Vec, fn)
+
+5. String and "string slice" (&str) both use the word "string" in their names,
+   which is confusing because they are different types.

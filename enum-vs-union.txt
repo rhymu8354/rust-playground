@@ -1,0 +1,15 @@
+// C/C++
+union {
+    int a;
+    float b;
+} x;
+enum {
+    A,
+    B,
+} x_t;
+
+// Rust
+enum x {
+    A(i32),
+    B(f32),
+}

@@ -1,0 +1,3 @@
+Q: Why Rust
+A: MANY viewers have asked what I think about it, or suggested I learn it,
+  or say it's the next great language.
