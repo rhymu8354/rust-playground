@@ -2,6 +2,7 @@
 members = [
     "binary_search",
     "branches",
+    "circular-permutation-in-binary-representation",
     "count-triplets-that-can-form-two-arrays-of-equal-xor",
     "fibonacci",
     "functions",
@@ -11,6 +12,7 @@ members = [
     "lifetimes",
     "loops",
     "panic",
+    "partition-labels",
     "restaurant",
 
 #   `rmain` is commented out because it depends on `cfib` which is a C
@@ -20,5 +22,6 @@ members = [
 #    "rmain",
 
     "spiral-matrix-iii",
+    "stone-game",
     "threading",
 ]
