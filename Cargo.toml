@@ -2,6 +2,7 @@
 members = [
     "binary_search",
     "branches",
+    "count-triplets-that-can-form-two-arrays-of-equal-xor",
     "fibonacci",
     "functions",
     "guessing_game",
