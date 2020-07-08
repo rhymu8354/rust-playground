@@ -1,0 +1,8 @@
+T: 'a  ->  Some type that is bounded by lifetime 'a
+    Meaning:  T cannot outlive 'a
+    However:  T might not live the entire lifetime 'a
+
+&'a T ->   Reference to some type that can be held for lifetime 'a
+    Meaning:  T must live at least as long as 'a
+    However:  T might live longer than 'a
+        And:  T might have been created during the lifetime 'a

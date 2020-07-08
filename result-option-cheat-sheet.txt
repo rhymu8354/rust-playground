@@ -1,0 +1,18 @@
+Result/Option cheat sheet:
+
+method                if Some/Ok         if None/Err
+------------------------------------------------------------
+and                  |Result argument   |no-op
+and_then             |new from closure  |no-op
+expect               |unwrap            |panic with argument
+map                  |transform         |no-op
+map_or               |transform         |given default
+map_or_else          |transform         |transform default
+ok (Result)          |Some              |None
+ok_or_else (Option)  |Ok                |Err from closure
+or                   |no-op             |given default
+or_else              |no-op             |new from closure
+unwrap               |unwrap            |panic
+unwrap_or            |unwrap            |given default
+unwrap_or_default    |unwrap            |default from type
+unwrap_or_else       |unwrap            |new from closure

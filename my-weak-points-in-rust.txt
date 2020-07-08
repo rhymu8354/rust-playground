@@ -1,0 +1,8 @@
+My weak points in Rust:
+
+* Understanding when and how to use lifetimes.
+* How to properly declare and use closures.
+* Avoiding multi-borrows.
+* Committing to memory the meanings of all the "helper functions"
+  which go along with Option, Result, Stream, etc. (e.g. "and(), ok_or_else()")
+* I don't really know when to use Pin.

@@ -4,7 +4,7 @@ Things Rhymu does NOT particularly like about Rust (not saying I hate them):
      i32, u64
 
 2. opinionated naming convension for functions and variables
-    Almost certainly going to use this:
+    I might use this:
         #![allow(non_snake_case)]
 
 3. using methods from traits requires pulling in (with "use") the traits,
@@ -12,6 +12,19 @@ Things Rhymu does NOT particularly like about Rust (not saying I hate them):
    being pulled in.
 
 4. excessive terseness of terms (examples: mut, Rc, str, Vec, fn)
+    4.a. Except for "Cow" because we lOVE Cows.  MOOOO!!!!!
 
 5. String and "string slice" (&str) both use the word "string" in their names,
-   which is confusing because they are different types.
+   which is confusing because they are different types.  Another example:
+   Path and PathBuf (Path is to str what PathBuf is to String).
+
+6. Rust is very rigid on strings containing valid UTF-8 sequences, leading to
+   some oddities, such as filesystem path names don't always "fit" into
+   strings.  WORK-AROUND: use methods like to_string_lossy() to get what
+   one would typically expect with invalid Unicode encodings
+
+7. Certain design techniques (e.g. asynchronous closures) are very difficult
+   to implement in a way that is readable and passes all of Rust's very
+   strict rules; it doesn't help that most guides/blogs/wikis/books out there
+   teach you only the basics, and the cliff you run into is the one just
+   after the book ends.
