@@ -11,9 +11,11 @@ members = [
     "leetcode-add-two-numbers-ii",
     "lifetimes",
     "loops",
+    "mlua-playground",
     "panic",
     "partition-labels",
     "restaurant",
+    "rlua-playground",
 
 #   `rmain` is commented out because it depends on `cfib` which is a C
 #   library, and this workspace isn't smart enough yet to build that
