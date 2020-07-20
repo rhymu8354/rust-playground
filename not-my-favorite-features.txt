@@ -28,3 +28,6 @@ Things Rhymu does NOT particularly like about Rust (not saying I hate them):
    strict rules; it doesn't help that most guides/blogs/wikis/books out there
    teach you only the basics, and the cliff you run into is the one just
    after the book ends.
+
+8. The std::path::Path methods on Windows do not let you mix / and \ in the
+   same path, unlike pretty much *any* other programming language.
