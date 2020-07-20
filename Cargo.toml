@@ -3,6 +3,7 @@ members = [
     "binary_search",
     "branches",
     "circular-permutation-in-binary-representation",
+    "climbing-stairs",
     "count-triplets-that-can-form-two-arrays-of-equal-xor",
     "fibonacci",
     "functions",
