@@ -13,6 +13,7 @@ members = [
     "leetcode-add-two-numbers-ii",
     "lifetimes",
     "loops",
+    "maximum-subarray",
     "mlua-playground",
     "panic",
     "partition-labels",
