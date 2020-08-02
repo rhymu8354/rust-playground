@@ -77,4 +77,5 @@ int main(int argc, char* argv[]) {
     }
     book.close();
     printf("Done reading!\n");
+    return EXIT_SUCCESS;
 }
