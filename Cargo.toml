@@ -17,6 +17,7 @@ members = [
     "macros",
     "maximum-subarray",
     "mlua-playground",
+    "multi_borrowing",
     "panic",
     "partition-labels",
     "restaurant",
