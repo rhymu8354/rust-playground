@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "accidental_move",
     "binary_search",
     "branches",
     "circular-permutation-in-binary-representation",

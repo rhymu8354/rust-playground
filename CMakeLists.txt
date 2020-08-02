@@ -1,3 +1,4 @@
+add_subdirectory("accidental_move")
 add_subdirectory("cfib")
 
 # `cmain` is commented out because it depeonds on `fibonacci` which is
