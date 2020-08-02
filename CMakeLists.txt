@@ -1,4 +1,5 @@
 add_subdirectory("accidental_move")
+add_subdirectory("async_closures")
 add_subdirectory("cfib")
 add_subdirectory("multi_borrowing")
 

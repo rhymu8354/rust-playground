@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "accidental_move",
+    "async_closures",
     "binary_search",
     "branches",
     "circular-permutation-in-binary-representation",
